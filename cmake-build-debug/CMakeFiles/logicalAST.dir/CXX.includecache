@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Stud/logicalAST/basic_nodes.h
+string
+-
+functional
+-
+memory
+-
+tuple
+-
+
+E:/Stud/logicalAST/binary_operations.h
+basic_nodes.h
+E:/Stud/logicalAST/basic_nodes.h
+
+E:/Stud/logicalAST/comparison_operations.h
+basic_nodes.h
+E:/Stud/logicalAST/basic_nodes.h
+
+E:/Stud/logicalAST/logical_tree.h
+basic_nodes.h
+E:/Stud/logicalAST/basic_nodes.h
+unary_operations.h
+E:/Stud/logicalAST/unary_operations.h
+binary_operations.h
+E:/Stud/logicalAST/binary_operations.h
+comparison_operations.h
+E:/Stud/logicalAST/comparison_operations.h
+
+E:/Stud/logicalAST/main.cpp
+iostream
+-
+logical_tree.h
+E:/Stud/logicalAST/logical_tree.h
+
+E:/Stud/logicalAST/unary_operations.h
+basic_nodes.h
+E:/Stud/logicalAST/basic_nodes.h
+
